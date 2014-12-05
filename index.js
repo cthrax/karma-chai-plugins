@@ -99,6 +99,16 @@ var plugins = {
         }
 
         files.push(pattern(filePath, required));
+    },
+    'dirty-chai': function(nam, files) {
+        var filePath = require.resolve(name);
+        var required = requireUsed(files);
+
+        if (required) {
+            requireAdapter(name, filepath, files, true);
+        }
+
+        files.push(pattern(filePath, required));
     }
 };
 
