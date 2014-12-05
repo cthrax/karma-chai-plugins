@@ -100,7 +100,7 @@ var plugins = {
 
         files.push(pattern(filePath, required));
     },
-    'dirty-chai': function(nam, files) {
+    'dirty-chai': function(name, files) {
         var filePath = require.resolve(name);
         var required = requireUsed(files);
 
