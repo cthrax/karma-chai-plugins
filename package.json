@@ -38,6 +38,6 @@
     "chai-things": "^0.2.0",
     "sinon": "^1.12.1",
     "sinon-chai": "^2.6.0",
-    "dirty-chai": "^0.0.1"
+    "dirty-chai": "git+https://github.com/cthrax/dirty-chai.git#master"
   }
 }
